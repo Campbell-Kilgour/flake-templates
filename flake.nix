@@ -4,12 +4,12 @@
   outputs = { self, nixpkgs }: {
     templates.fish = {
       path = ./fish;
-      description = "A generi shell environment setup with Fish";
+      description = "A generic shell environment setup with Fish";
     };
 
     templates.rust = {
       path = ./rust;
-      description = "A nix shell environment ready for Rust development."
+      description = "A nix shell environment ready for Rust development.";
     };
   };
 }
